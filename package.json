@@ -4,7 +4,7 @@
   "description": "A zprefix app",
   "main": "index.html",
   "scripts": {
-    "start": "parcel src/Index.html",
+    "start": "npm install && parcel src/Index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
