@@ -1,0 +1,19 @@
+{
+  "name": "zprefix",
+  "version": "1.0.0",
+  "description": "A zprefix app",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel src/Index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dexie": "^3.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
